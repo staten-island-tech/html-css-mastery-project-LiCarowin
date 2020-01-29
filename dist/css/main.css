@@ -1,0 +1,102 @@
+.user-gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  @media (min-width: 900px) {
+    .user-gallery {
+      height: 90vh;
+    }
+  }
+  
+  .user-gallery-header {
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  @media (min-width: 600px) {
+    .user-gallery-header {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .user-gallery-header {
+      font-size: 4rem;
+    }
+  }
+  
+  @media (min-width: 1100px) {
+    .user-gallery-header {
+      font-size: 5rem;
+    }
+  }
+  
+  .user-gallery-gallery {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 900px) {
+    .user-gallery-gallery {
+      width: 90%;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+    }
+  }
+  
+  .user-gallery-gallery .user-gallery-image {
+    width: 90%;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 900px) {
+    .user-gallery-gallery .user-gallery-image {
+      height: 30rem;
+      width: auto;
+    }
+  }
+html {
+	 margin: 0;
+	 padding: 0;
+	 font-size: 62.5%;
+	 box-sizing: border-box;
+}
+ body {
+	 background-color: white;
+}
+ .header {
+	 position: relative;
+	 height: 100vh;
+	 background-image: linear-gradient(to right bottom, rgba(0, 1, 0, ), rgba(0, 1, 0, )), url(/dist/media/EiffelTowerHeader.png);
+	 background-position: top;
+	 background-size: cover;
+	 -webkit-clip-path: polygon(0 0, 100% 0, 100% 8vh, 0% 100%);
+	 clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%);
+}
