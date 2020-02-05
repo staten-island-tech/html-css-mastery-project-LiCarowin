@@ -1,6 +1,6 @@
 @import "_variables.scss";
 
-.user-gallery {
+.header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +10,7 @@
   }
 }
 
-.user-gallery-header {
+.heading-primary {
   font-size: 2rem;
   color: white;
   text-transform: uppercase;

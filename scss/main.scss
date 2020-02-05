@@ -19,17 +19,40 @@ body{
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 8vh, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%);
 }
+
 .heading-primary {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   color: white;
-  text-shadow: 1px 1px 4px #000000;
+  text-shadow: 7px 7px 4px #000000;
   text-align: center;  
   text-transform: uppercase;
+  font-size: 17vh;
   padding: 0%;
 }
+.user-gallery-one {
+  position: relative;
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+}
 .user-gallery-header {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
   text-align: center;  
   text-transform: capitalize;
-  padding: 0%;
+  font-size: 7vh;
+}
+.user-gallery-gallery-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+  width: 10%;
 }
