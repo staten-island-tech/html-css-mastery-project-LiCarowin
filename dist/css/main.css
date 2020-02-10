@@ -101,14 +101,15 @@ body {
   background-image: url(../media/EiffelTowerHeader.png);
   background-position: top;
   background-size: cover;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 8vh, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 9vh, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90vh, 0% 100%);
 }
 
 .heading-primary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -116,9 +117,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: white;
   text-shadow: 7px 7px 4px #000000;
   text-align: center;
@@ -127,14 +125,7 @@ body {
   padding: 0%;
 }
 
-.user-gallery-one {
-  position: relative;
-  height: 100vh;
-  background-position: top;
-  background-size: cover;
-}
-
-.user-gallery-header {
+.user-gallery-one-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -153,15 +144,31 @@ body {
   text-align: center;
   text-transform: capitalize;
   font-size: 7vh;
-  padding: 2%;
+  padding: 0%;
+  margin: 2%;
 }
 
-.user-gallery-gallery-one {
+.user-gallery-one {
   position: relative;
   height: 100vh;
-  background-color: rgba(255, 119, 119, 0.411);
-  background-position: top;
-  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.411);
+}
+
+.user-gallery-one-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.user-gallery-one-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  color: black;
+  text-align: center;
+  font-size: 2.5vh;
 }
 
 .user-gallery-gallery-two {
@@ -175,7 +182,7 @@ body {
 .user-gallery-gallery-three {
   position: relative;
   height: 100vh;
-  background-color: rgba(64, 67, 252, 0.774);
+  background-color: rgba(255, 255, 255, 0.411);
   background-position: top;
   background-size: cover;
 }
