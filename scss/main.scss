@@ -9,6 +9,7 @@ html {
 body{
     background-color: rgb(245, 221, 189);
 }
+
 .header {
     position: relative;
     height: 100vh;
@@ -24,7 +25,6 @@ body{
   display: flex;
   position: relative;
   flex-direction: column;
-  justify-content: space-between;
   color: white;
   text-shadow: 7px 7px 4px #000000;
   text-align: center;  
@@ -32,9 +32,17 @@ body{
   font-size: 17vh;
   padding: 0%;
 }
+.heading-primary-main {
+  width: 80vw;
+  text-align: center;
+  @include tablet {
+    font-size: 5.5rem;
+  }
+}
 
 .user-gallery-one-header {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -54,25 +62,63 @@ body{
 .user-gallery-one-media {
   display: flex;
   position: relative;
+  margin: 1rem;
 }
 .user-gallery-one-caption {
-  display: flex;
   position: relative;
   color: black;
   text-align: center;  
   font-size: 2.5vh;
+  margin: 1rem;
 }
-.user-gallery-gallery-two {
+
+.user-gallery-two-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+  text-align: center;  
+  text-transform: capitalize;
+  font-size: 7vh;
+  padding: 0%;
+  margin: 2%;
+}
+.user-gallery-two {
   position: relative;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.411);
-  background-position: top;
-  background-size: cover;
 }
-.user-gallery-gallery-three {
+.user-gallery-two-media {
+  display: flex;
+  position: relative;
+}
+.user-gallery-two-caption {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  text-align: center;  
+  font-size: 2.5vh;
+}
+
+.user-gallery-three-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+  text-align: center;  
+  text-transform: capitalize;
+  font-size: 7vh;
+  padding: 0%;
+  margin: 2%;
+}
+.user-gallery-three {
   position: relative;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.411);
-  background-position: top;
-  background-size: cover;
 }
