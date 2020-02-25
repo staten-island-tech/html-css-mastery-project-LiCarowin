@@ -1,5 +1,7 @@
 @import "_variables.scss";
 @import "_usergallery.scss";
+@import "_flip.scss";
+
 html {
     margin: 0;
     padding: 0;
@@ -40,30 +42,34 @@ body{
   }
 }
 
+/* Locations */
+
 .user-gallery-one-header {
   display: flex;
   position: relative;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   color: white;
   text-shadow: 4px 4px 4px #000000;
-  text-align: center;  
   text-transform: capitalize;
   font-size: 7vh;
   padding: 0%;
-  margin: 2%;
+  margin: 1rem;
 }
 .user-gallery-one {
   position: relative;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.411);
 }
+/*.user-gallery-gallery-one{
+
+}*/
 .user-gallery-one-media {
   display: flex;
   position: relative;
   margin: 1rem;
 }
+/* Option?
 .user-gallery-one-caption {
   position: relative;
   color: black;
@@ -71,51 +77,66 @@ body{
   font-size: 2.5vh;
   margin: 1rem;
 }
+*/
+
+/* Cuisine */
 
 .user-gallery-two-header {
   display: flex;
+  position: relative;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   color: white;
   text-shadow: 4px 4px 4px #000000;
-  text-align: center;  
   text-transform: capitalize;
   font-size: 7vh;
   padding: 0%;
-  margin: 2%;
+  margin: 1rem;
 }
 .user-gallery-two {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.411);
 }
-.user-gallery-two-media {
-  display: flex;
+.cuisine-media {
   position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  @include tablet {
+    flex-direction: column;
+}
 }
 .user-gallery-two-caption {
-  display: flex;
   position: relative;
-  justify-content: space-around;
+  display: flex;
+  text-align: center;
   align-items: center;
+  justify-content: center;
   color: black;
-  text-align: center;  
-  font-size: 2.5vh;
+  font-size: 2.5rem;
+  margin: 1rem;
+  @include tablet {
+    font-size: 1rem;
 }
+}
+
+/* History */
 
 .user-gallery-three-header {
   display: flex;
+  position: relative;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   color: white;
   text-shadow: 4px 4px 4px #000000;
-  text-align: center;  
   text-transform: capitalize;
   font-size: 7vh;
   padding: 0%;
-  margin: 2%;
+  margin: 1rem;
 }
 .user-gallery-three {
   position: relative;
