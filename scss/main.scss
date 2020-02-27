@@ -1,6 +1,7 @@
 @import "_variables.scss";
 @import "_usergallery.scss";
 @import "_flip.scss";
+@import "_blur.scss";
 
 html {
     margin: 0;
@@ -64,7 +65,7 @@ body{
 /*.user-gallery-gallery-one{
 
 }*/
-.user-gallery-one-media {
+.location-media {
   position: relative;
   display: flex;
   align-items: center;
