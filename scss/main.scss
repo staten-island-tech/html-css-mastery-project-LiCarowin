@@ -10,7 +10,8 @@ html {
     box-sizing: border-box;
   }
 body{
-    background-color: rgb(245, 221, 189);
+  margin: 1rem;  
+  background-color: rgb(245, 221, 189);
 }
 
 .header {
@@ -59,12 +60,15 @@ body{
 }
 .user-gallery-one {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.411);
 }
-/*.user-gallery-gallery-one{
 
-}*/
 .location-media {
   position: relative;
   display: flex;
@@ -76,20 +80,6 @@ body{
     flex-direction: column;
 }
 }
-
-/*.user-gallery-one-caption {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  font-size: 2.5rem;
-  margin: 1rem;
-  @include tablet {
-    font-size: 1rem;
-}
-}*/
-
 
 /* Cuisine */
 
@@ -107,6 +97,12 @@ body{
 }
 .user-gallery-two {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.411);
 }
@@ -116,6 +112,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin: 1rem;
   @include tablet {
     flex-direction: column;
 }

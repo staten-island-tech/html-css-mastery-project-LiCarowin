@@ -1,6 +1,6 @@
 .Croissants {
-  width: 50rem;
-  height: 30rem;
+  width: 40rem;
+  height: 25rem;
   @include tablet {
     width: 30rem;
     height: 20rem;
@@ -9,8 +9,8 @@
 }
 
 .Macarons {
-  width: 50rem;
-  height: 30rem;
+  width: 40rem;
+  height: 25rem;
   @include tablet {
     width: 30rem;
     height: 20rem;
@@ -19,8 +19,8 @@
 }
 
 .CheeseTray {
-  width: 50rem;
-  height: 30rem;
+  width: 40rem;
+  height: 25rem;
   @include tablet {
     width: 30rem;
     height: 20rem;
@@ -30,8 +30,8 @@
 
 .flip-card {
     background-color: transparent;
-    width: 50rem;
-    height: 30rem;
+    width: 40rem;
+    height: 25rem;
     -webkit-perspective: 1000px;
             perspective: 1000px;
     padding: 1rem;
@@ -44,8 +44,8 @@
   
   .flip-card-inner {
     position: absolute;
-    width: 50rem;
-    height: 30rem;
+    width: 40rem;
+    height: 25rem;
     text-align: center;
   font-size: 1.5rem;
 
@@ -68,8 +68,8 @@
   
   .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 50rem;
-    height: 30rem;
+    width: 40rem;
+    height: 25rem;
     backface-visibility: hidden;
     @include tablet {
         width: 30rem;
