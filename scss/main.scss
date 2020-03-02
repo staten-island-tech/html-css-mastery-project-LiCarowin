@@ -32,19 +32,11 @@ body{
   color: white;
   text-shadow: 7px 7px 4px #000000;
   text-align: center;  
-  text-transform: uppercase;
-  font-size: 17vh;
   padding: 0%;
 }
-.heading-primary-main {
-  width: 80vw;
-  text-align: center;
-  @include tablet {
-    font-size: 5.5rem;
-  }
-}
 
-/* Locations */
+
+/* History */
 
 .user-gallery-one-header {
   display: flex;
@@ -60,28 +52,11 @@ body{
 }
 .user-gallery-one {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 1rem;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.411);
 }
 
-.location-media {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  margin: 1rem;
-  @include tablet {
-    flex-direction: column;
-}
-}
-
-/* Cuisine */
+/* Locations */
 
 .user-gallery-two-header {
   display: flex;
@@ -102,35 +77,24 @@ body{
   align-items: center;
   flex-direction: column;
   margin-top: 1rem;
-  margin-bottom: 1rem;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.411);
 }
-.cuisine-media {
+
+.location-media {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  justify-content: space-between;
   margin: 1rem;
   @include tablet {
     flex-direction: column;
 }
 }
-.user-gallery-two-caption {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  font-size: 2.5rem;
-  margin: 1rem;
-  @include tablet {
-    font-size: 1rem;
-}
-}
 
-/* History */
+/* Cuisine */
 
 .user-gallery-three-header {
   display: flex;
@@ -146,6 +110,62 @@ body{
 }
 .user-gallery-three {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   height: 100vh;
+  background-color: rgba(255, 255, 255, 0.411);
+}
+.cuisine-media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  @include tablet {
+    flex-direction: column;
+}
+}
+user-gallery-three-caption {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 2.5rem;
+  margin: 1rem;
+  @include tablet {
+    font-size: 1rem;
+}
+}
+
+/* History */
+
+.user-gallery-four-header {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 4px #000000;
+  text-transform: capitalize;
+  font-size: 7vh;
+  padding: 0%;
+  margin: 1rem;
+}
+.user-gallery-four {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 50vh;
   background-color: rgba(255, 255, 255, 0.411);
 }
