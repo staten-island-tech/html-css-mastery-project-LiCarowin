@@ -6,6 +6,11 @@
     height: 20rem;
     font-size: 5.5rem;
 }
+  @include phone {
+  width: 28rem;
+  height: 18rem;
+  font-size: 1.2rem;
+}
 }
 
 .Macarons {
@@ -16,6 +21,11 @@
     height: 20rem;
     font-size: 5.5rem;
 }
+  @include phone {
+  width: 28rem;
+  height: 18rem;
+  font-size: 1.2rem;
+}
 }
 
 .CheeseTray {
@@ -25,6 +35,11 @@
     width: 30rem;
     height: 20rem;
     font-size: 5.5rem;
+}
+  @include phone {
+  width: 28rem;
+  height: 18rem;
+  font-size: 1.2rem;
 }
 }
 

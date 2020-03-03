@@ -25,7 +25,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .heading-primary {
     font-size: 3rem;
   }
@@ -43,13 +43,12 @@
   }
 }
 
-  width: 90%;
 .heading-primary-main {
   width: 80vw;
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .heading-primary-main {
     font-size: 5.5rem;
   }
@@ -60,11 +59,19 @@
   height: 35rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .Croissants {
     width: 30rem;
     height: 20rem;
     font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Croissants {
+    width: 28rem;
+    height: 18rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -73,11 +80,19 @@
   height: 35rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .Macarons {
     width: 30rem;
     height: 20rem;
     font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Macarons {
+    width: 28rem;
+    height: 18rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -86,11 +101,19 @@
   height: 35rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .CheeseTray {
     width: 30rem;
     height: 20rem;
     font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .CheeseTray {
+    width: 28rem;
+    height: 18rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -103,7 +126,7 @@
   margin: .5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .flip-card {
     width: 30rem;
     height: 20rem;
@@ -125,7 +148,7 @@
           transform-style: preserve-3d;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .flip-card-inner {
     width: 30rem;
     height: 20rem;
@@ -146,7 +169,7 @@
           backface-visibility: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .flip-card-front, .flip-card-back {
     width: 30rem;
     height: 20rem;
@@ -179,10 +202,69 @@
           transform: rotateX(180deg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .flip-card-back {
     width: 30rem;
     height: 20rem;
+    font-size: 1.2rem;
+  }
+}
+
+.Louvre {
+  height: 45rem;
+}
+
+@media (max-width: 834px) {
+  .Louvre {
+    height: 25rem;
+    font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Louvre {
+    width: 28rem;
+    height: 18rem;
+    font-size: 1.2rem;
+  }
+}
+
+.Arc {
+  height: 55rem;
+}
+
+@media (max-width: 834px) {
+  .Arc {
+    width: 30rem;
+    height: 20rem;
+    font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Arc {
+    width: 28rem;
+    height: 18rem;
+    font-size: 1.2rem;
+  }
+}
+
+.EiffelTower {
+  height: 45rem;
+}
+
+@media (max-width: 834px) {
+  .EiffelTower {
+    width: 30rem;
+    height: 20rem;
+    font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .EiffelTower {
+    width: 28rem;
+    height: 18rem;
     font-size: 1.2rem;
   }
 }
@@ -206,7 +288,7 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .bg,
   .overlay {
     width: 30rem;
@@ -222,7 +304,7 @@ img,
   border-radius: 3px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   img,
   .overlay {
     width: 30rem;
@@ -265,7 +347,7 @@ img,
   font-family: 'Droid Serif', serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .bg .overlay {
     width: 30rem;
     height: 20rem;
@@ -282,26 +364,11 @@ img,
   filter: blur(2px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .bg {
     width: 30rem;
     height: 20rem;
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 1148px) {
-  .bg {
-    max-width: 48%;
-    margin: 1%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .bg {
-    float: none;
-    max-width: 80%;
-    margin: 1% auto;
+    font-size: 1.2rem;
   }
 }
 
@@ -345,14 +412,7 @@ body {
 
 /* History */
 .user-gallery-one-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   text-align: center;
   color: white;
   text-shadow: 4px 4px 4px #000000;
@@ -370,14 +430,7 @@ body {
 
 /* Locations */
 .user-gallery-two-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   text-align: center;
   color: white;
   text-shadow: 4px 4px 4px #000000;
@@ -418,6 +471,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -428,7 +482,7 @@ body {
   margin: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .location-media {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -439,14 +493,7 @@ body {
 
 /* Cuisine */
 .user-gallery-three-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   text-align: center;
   color: white;
   text-shadow: 4px 4px 4px #000000;
@@ -498,7 +545,7 @@ body {
   margin: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .cuisine-media {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -507,25 +554,23 @@ body {
   }
 }
 
-user-gallery-three-caption {
+.user-gallery-three-caption {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
   color: black;
   font-size: 2.5rem;
   margin: 1rem;
 }
 
-@media (max-width: 768px) {
-  user-gallery-three-caption {
+@media (max-width: 414px) {
+  .user-gallery-three-caption {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 834px) {
+  .user-gallery-three-caption {
+    font-size: 1.5rem;
   }
 }
 
