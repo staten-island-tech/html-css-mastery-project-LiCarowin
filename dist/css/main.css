@@ -196,7 +196,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e2c574;
+  background-color: #292a6d;
   color: white;
   -webkit-transform: rotateX(180deg);
           transform: rotateX(180deg);
@@ -382,15 +382,17 @@ html {
 
 body {
   margin: 1rem;
-  background-color: #f5ddbd;
+  background-color: #becff5;
 }
 
 .header {
   position: relative;
   height: 100vh;
-  background-image: url(../media/EiffelTowerHeader.png);
-  background-position: top;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(98, 73, 209, 0.329)), to(rgba(185, 146, 96, 0.267))), url("../media/ParisNight.jpg");
+  background-image: linear-gradient(to right bottom, rgba(98, 73, 209, 0.329), rgba(185, 146, 96, 0.267)), url("../media/ParisNight.jpg");
   background-size: cover;
+  background-position: center;
+  background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 9vh, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 90vh, 0% 100%);
 }
@@ -457,7 +459,9 @@ body {
           flex-direction: column;
   margin-top: 1rem;
   height: 100vh;
-  background-color: rgba(255, 255, 255, 0.411);
+  background-image: url("../media/EiffelTowerHeader.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .location-media {
@@ -521,7 +525,11 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
   height: 100vh;
-  background-color: rgba(255, 255, 255, 0.411);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(216, 209, 241, 0.007)), to(rgba(215, 242, 243, 0.267))), url("../media/MacaronBack.jpg");
+  background-image: linear-gradient(to right bottom, rgba(216, 209, 241, 0.007), rgba(215, 242, 243, 0.267)), url("../media/MacaronBack.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: top;
 }
 
 .cuisine-media {
