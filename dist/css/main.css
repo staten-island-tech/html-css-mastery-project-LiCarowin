@@ -393,8 +393,8 @@ body {
   background-size: cover;
   background-position: center;
   background-position: top;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 9vh, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 90vh, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85vh, 0% 100%);
 }
 
 .heading-primary {
@@ -427,7 +427,11 @@ body {
 .user-gallery-one {
   position: relative;
   height: 100vh;
-  background-color: rgba(255, 255, 255, 0.411);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(87, 43, 247, 0.116)), to(rgba(235, 186, 222, 0.267))), url("../media/Bridge.jpg");
+  background-image: linear-gradient(to right bottom, rgba(87, 43, 247, 0.116), rgba(235, 186, 222, 0.267)), url("../media/Bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: top;
 }
 
 /* Locations */
@@ -525,8 +529,8 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(216, 209, 241, 0.007)), to(rgba(215, 242, 243, 0.267))), url("../media/MacaronBack.jpg");
-  background-image: linear-gradient(to right bottom, rgba(216, 209, 241, 0.007), rgba(215, 242, 243, 0.267)), url("../media/MacaronBack.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(216, 209, 241, 0.075)), to(rgba(215, 242, 243, 0.267))), url("../media/MacaronBack.jpg");
+  background-image: linear-gradient(to right bottom, rgba(216, 209, 241, 0.075), rgba(215, 242, 243, 0.267)), url("../media/MacaronBack.jpg");
   background-size: cover;
   background-position: center;
   background-position: top;

@@ -27,8 +27,8 @@ url("../media/ParisNight.jpg");
     background-position: center;
     background-position: top;
   
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 9vh, 0% 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0% 100%);
 }
 
 .heading-primary {
@@ -57,7 +57,15 @@ url("../media/ParisNight.jpg");
 .user-gallery-one {
   position: relative;
   height: 100vh;
-  background-color: rgba(255, 255, 255, 0.411);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(87, 43, 247, 0.116),
+      rgba(235, 186, 222, 0.267)
+    ),
+url("../media/Bridge.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: top;
 }
 
 /* Locations */
@@ -123,7 +131,7 @@ url("../media/ParisNight.jpg");
   height: 100vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(216, 209, 241, 0.007),
+      rgba(216, 209, 241, 0.075),
       rgba(215, 242, 243, 0.267)
     ),
 url("../media/MacaronBack.jpg");
