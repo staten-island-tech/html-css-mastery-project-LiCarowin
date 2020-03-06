@@ -143,10 +143,8 @@ url("../media/MacaronBack.jpg");
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 1rem;
+  justify-content: center;
   @include tablet {
     flex-direction: column;
 }
