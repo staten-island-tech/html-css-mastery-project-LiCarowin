@@ -1,4 +1,4 @@
-.Croissants {
+.food {
   width: 50rem;
   height: 35rem;
   @include tablet {
@@ -13,35 +13,6 @@
 }
 }
 
-.Macarons {
-  width: 50rem;
-  height: 35rem;
-  @include tablet {
-    width: 45rem;
-    height: 30rem;
-    font-size: 5.5rem;
-}
-  @include phone {
-  width: 28rem;
-  height: 18rem;
-  font-size: 1.2rem;
-}
-}
-
-.CheeseTray {
-  width: 50rem;
-  height: 35rem;
-  @include tablet {
-    width: 45rem;
-    height: 30rem;
-    font-size: 5.5rem;
-}
-  @include phone {
-  width: 28rem;
-  height: 18rem;
-  font-size: 1.2rem;
-}
-}
 
 .flip-card {
     background-color: transparent;
