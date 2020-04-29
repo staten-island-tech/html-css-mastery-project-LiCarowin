@@ -20,6 +20,9 @@
     url("../media/EiffelTowerHeader.png");
     background-size: cover;
     background-position: center;
+    @include phone {
+      height: 120vh;
+      }
   }
   
   .location-media {
@@ -30,7 +33,6 @@
     text-align: center;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1rem;
     @include tablet {
       flex-direction: column;
   }

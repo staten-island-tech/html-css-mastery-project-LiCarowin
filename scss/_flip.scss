@@ -1,9 +1,8 @@
 .food {
-  width: 50rem;
-  height: 35rem;
+  width: 45rem;
+  height: 30rem;
   @include tablet {
-    width: 45rem;
-    height: 30rem;
+    width: 40rem;
     font-size: 5.5rem;
 }
   @include phone {
@@ -16,22 +15,27 @@
 
 .flip-card {
     background-color: transparent;
-    width: 50rem;
-    height: 35rem;
+    width: 45rem;
+    height: 30rem;
     -webkit-perspective: 1000px;
             perspective: 1000px;
     margin: .5rem;
     @include tablet {
-      width: 45rem;
+      width: 40rem;
       height: 30rem;;
       font-size: 5.5rem;
+    }
+    @include phone {
+      width: 28rem;
+      height: 18rem;
+      font-size: 1.2rem;
     }
   }
   
   .flip-card-inner {
     position: absolute;
-    width: 50rem;
-    height: 35rem;
+    width: 45rem;
+    height: 30rem;
     text-align: center;
   font-size: 1.5rem;
 
@@ -45,6 +49,11 @@
       height: 30rem;
       font-size: 5.5rem;
     }
+    @include phone {
+      width: 28rem;
+      height: 18rem;
+      font-size: 1.2rem;
+    }
   }
   
   .flip-card:hover .flip-card-inner {
@@ -54,15 +63,19 @@
   
   .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 50rem;
-    height: 35rem;
+    width: 45rem;
+    height: 30rem;
     backface-visibility: hidden;
     @include tablet {
       width: 45rem;
       height: 30rem;
       font-size: 5.5rem;
     }
-
+    @include phone {
+      width: 28rem;
+      height: 18rem;
+      font-size: 1.2rem;
+    }
   }
   
   .flip-card-front {
@@ -83,6 +96,11 @@
             width: 45rem;
             height: 30rem;
             font-size: 1.2rem;
+        }
+        @include phone {
+          width: 28rem;
+          height: 18rem;
+          font-size: 1.2rem;
         }
   }
 

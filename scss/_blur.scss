@@ -1,43 +1,33 @@
-.Louvre {
-  height: 45rem;
+.louvre {
+  height: 30rem;
   @include tablet {
     height: 25rem;
-    font-size: 5.5rem;
 }
   @include phone {
-  width: 28rem;
-  height: 18rem;
-  font-size: 1.2rem;
+  height: 20rem;
 }
 }
 
-.Arc {
-  height: 55rem;
+.arc {
+  height: 50rem;
   @include tablet {
-    width: 30rem;
-    height: 20rem;
-    font-size: 5.5rem;
+    height: 25rem;
 }
   @include phone {
-  width: 28rem;
-  height: 18rem;
-  font-size: 1.2rem;
+  height: 40rem;
 }
 }
 
-.EiffelTower {
-  height: 45rem;
+.tower {
+  height: 30rem;
   @include tablet {
-    width: 30rem;
-    height: 20rem;
-    font-size: 5.5rem;
+    height: 25rem;
 }
   @include phone {
-  width: 28rem;
-  height: 18rem;
-  font-size: 1.2rem;
+  height: 20rem;
 }
 }
+
 
 $bg: rgba(0, 0, 0, 0.2);
 
@@ -55,13 +45,15 @@ $bg: rgba(0, 0, 0, 0.2);
 }
 
 
-.bg,
 .overlay {
   text-align: center;
   @include tablet {
     width: 30rem;
     height: 20rem;
     font-size: 1.2rem;
+}
+@include phone {
+  height: 20rem;
 }
 }
 
@@ -74,23 +66,19 @@ img,
     height: 20rem;
     font-size: 1.2rem;
 }
+@include phone {
+  height: 20rem;
+}
 }
 
 .bg {
   float: left;
-  max-width: 31%;
   position: relative;
-  margin: .5%;
-  img {
-    width: 100%;
-    margin-bottom: -4px;
-  }
   .overlay {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 100%;
     background: $bg;
     color: #fff;
     font-size: 17px;
@@ -108,6 +96,10 @@ img,
       height: 20rem;
       font-size: 1.2rem;
   }
+  @include phone {
+    height: 20rem;
+    font-size: 1.2rem;
+  }
   }
   &:hover {
     .overlay {
@@ -118,9 +110,71 @@ img,
       filter: blur(2px);
     }
   }
+}
+///////////////////////////////
+.overlay-arc {
+  text-align: center;
   @include tablet {
     width: 30rem;
     height: 20rem;
     font-size: 1.2rem;
 }
+@include phone {
+  height: 40rem;
+}
+}
+
+img,
+.overlay-arc {
+  transition: .3s all;
+  border-radius: 3px;
+  @include tablet {
+    width: 30rem;
+    height: 20rem;
+    font-size: 1.2rem;
+}
+@include phone {
+  height: 40rem;
+}
+}
+
+.bg {
+  float: left;
+  position: relative;
+  .overlay-arc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: $bg;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    opacity: 0;
+    h2 {
+      padding-top: 20%;
+      font-family: 'Droid Serif', serif;
+    }
+    p {
+      font-family: 'Droid Serif', serif;
+    }
+    @include tablet {
+      width: 30rem;
+      height: 20rem;
+      font-size: 1.2rem;
+  }
+  @include phone {
+    height: 40rem;
+    font-size: 1.2rem;
+  }
+  }
+  &:hover {
+    .overlay-arc {
+      opacity: 1;
+    }
+    img {
+      -webkit-filter: blur(2px);
+      filter: blur(2px);
+    }
+  }
 }
